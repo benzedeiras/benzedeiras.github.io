@@ -4,16 +4,34 @@ body {
     font-family: "Lato", sans-serif;
 }
 
+img {
+  /* padding: 8px 8px 8px 32px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
 .sidepanel  {
   width: 0;
   position: fixed;
   z-index: 1;
-  height: 95%;
+  height: 94%;
   top: 0;
   left: 0;
   background-color: #0e593e;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.1s;
   padding-top: 60px;
 }
 
@@ -23,13 +41,26 @@ body {
   font-size: 25px;
   color: #f8f8f8;
   display: block;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 .sidepanel close:hover {
   color: #2d785d;
 }
 
+.sidepanel name {
+  font-family: "Garamond", serif;
+  padding: 8px 32px 2px 32px;
+  text-decoration: none;
+  /* text-decoration: underline; */
+  font-size: 19px;
+  color: #f8f8f8;
+  display: block;
+  transition: 0.3s;
+  text-align: justify;
+  font-weight: bold;
+  text-justify: inter-word;
+}
 
 .sidepanel title {
   padding: 8px 32px 2px 32px;
@@ -39,6 +70,18 @@ body {
   display: block;
   transition: 0.3s;
   text-align: justify;
+  font-weight: bold;
+  text-justify: inter-word;
+}
+
+.sidepanel apo {
+  padding: 8px 32px 32px 32px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #f8f8f8;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
   font-weight: bold;
   text-justify: inter-word;
 }
@@ -67,6 +110,7 @@ body {
 
 .openbtn {
   font-size: 20px;
+  border-radius: 10px;
   cursor: pointer;
   position:fixed;
   top: 30;
@@ -75,6 +119,20 @@ body {
   color: white;
   padding: 10px 15px;
   margin: 10px 10px;
+  border: 0;
+}
+
+.insta {
+  font-size: 20px;
+  /* border-radius: 10px; */
+  cursor: pointer;
+  position:fixed;
+  bottom: 1;
+  /* right: 1; */
+  /* background-color: #0e593e; */
+  /* color: white; */
+  padding: 10px 15px;
+  margin: 0px 210px;
   border: 0;
 }
 

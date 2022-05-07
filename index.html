@@ -13,12 +13,17 @@
 
   <div id="mySidepanel" class="sidepanel">
     <close href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</close>
+    <img src="./images/logo.png" alt="Logo" style="width:360px;">
+    <name> Saberes de Benzedeiras e Benzedores: reconhecimento de patrimônio
+    cultural no sudoeste paranaense.</name>
+    <title>__________________________________________________________</title>
     <title>Objetivo</title>
     <p>Promover  o reconhecimento e visibilidade na sociedade local bem como
     junto ao poder público municipal, do patrimônio cultural imaterial que a
     prática da benzedura representa para o município.</p>
 
-    <title>Você sabia que no Estado do Paraná existe uma lei que reconhece as benzedeiras e benzedores como patrimônio imaterial?</title>
+    <title>Você sabia que no Estado do Paraná existe uma lei que reconhece as
+    benzedeiras e benzedores como patrimônio imaterial?</title>
     <p>Essa lei ordinária estadual Nº 19.689/2018, determina que é dever do
     Estado garantir o exercício de todos os ofícios tradicionais de saúde
     popular e cura religiosa, incentivando a valorização e difusão destas
@@ -32,6 +37,7 @@
     viver”. O artigo ainda afirma que “o poder público, com a colaboração da
     comunidade, promoverá e protegerá o patrimôniocultural brasileiro, por meio
     de inventários, registros e demais formas de preservação”</p>
+
     <title>Qual a importância de mapear as benzedeiras?</title>
     <p>É uma ferramenta importante para a formação de grupos sociais organizados
     em identidades coletivas. Permite que eles, juntamente com suas entidades,
@@ -39,14 +45,27 @@
     valorização dos conhecimentos tradicionais presentesnos ofícios tradicionais
     de cura religiosa e saúde popular.</p>
 
-    <!-- <a href="#">Services</a> -->
-    <!-- <a href="#">Clients</a> -->
-    <!-- <a href="#">Contact</a> -->
+
+    <apo>Apoio:</apo>
+
+    <div class="row">
+      <div class="column">
+        <img src="./images/utfpr.png" alt="Logo" style="width:150px;">
+      </div>
+      <div class="column">
+        <img src="./images/cresol.png" alt="Logo" style="width:150px;">
+      </div>
+    </div>
+
   </div>
+
+  <div id="empty" onclick="closeNav()" height:"100%" width:"100%"></div>
 
   <button class="openbtn" onclick="openNav()">☰ Sobre o projeto</button>
 
-  <iframe src="./map.html" frameborder="0" style="border:none; display:block; width:100vw; height:100vh"></iframe>
+  <a  href="https://www.instagram.com/benzedeirasdv/"><img src="https://cdn.iconscout.com/icon/free/png-256/instagram-1865894-1581910.png" srcset="https://cdn.iconscout.com/icon/free/png-512/instagram-1865894-1581910.png 2x" alt="Instagram Logo Icon" width="48px" class="insta"> </a>
+
+  <iframe id="map" src="./map.html" frameborder="0" style="border:none; display:block; width:100vw; height:100vh"></iframe>
 
 <script>
   function openNav() {
