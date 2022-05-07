@@ -5,11 +5,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 
+    <link rel="stylesheet" href="./map.css"/>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
 
     <script src="./dv.js"></script>
-
+    <style type="text/css">
+      html {
+      overflow:hidden;
+      }
+	</style>
 	<style>
 		html, body {
 			height: 100%;
@@ -71,9 +76,29 @@
 	
 	var Juraci = L.marker([-25.740403, -53.057698]).addTo(map)
 		.bindPopup('<b>Juraci Zorzan</b><br /><br /><iframe width="300" height="168.75" src="https://www.youtube.com/embed/O-EApKwsCXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>', {"maxWidth":"1000px"});
-	
+
 	var Terezinha = L.marker([-25.755165, -53.071475]).addTo(map)
-		.bindPopup('<b>Terezinha Foiatto Bachi</b><br />Informações da benzedeira 3.');
+		.bindPopup('<div class="name"><b>Terezinha Foiatto Bachi</b><br /></div>\
+                   <div class="row", style="width: 600px">\
+                   <div class="pic";">\
+                       <img src="./images/terezinha.png" alt="Terezinha" width="200px">\
+                   </div>\
+                   <div class="text";"><p>\
+                       Dona Terezinha reside há aproximadamente 60 anos no\
+                       Paraná. Prática o benzimento desde seus 17 anos de idade,\
+                       quando seu pai que também benzia quis que ela aprendesse.\
+                       Seu pai tinha aprendido com o avô de Dona Terezinha,\
+                       tornando este conhecimento como herança de família.<br /><br />\
+                       Atualmente benze para cobreiro, zipela e faz simpatia para bichas.<br /><br />\
+                       \
+                       Dona Terezinha é mais procurada pela comunidade local, mas por vezes também é\
+                       procurada por pessoas do interior. Benze principalmente mulheres, crianças e\
+                       jovens de cobreiro. Faz simpatia para bichas em crianças e homens em comparação\
+                       a procuram bem pouco.<br /><br />\
+                       \
+                       Está repassando seus conhecimentos tradicionais de cura para uma de suas filhas,\
+                       para que esse conhecimento não se perca.</p></div></div>',
+				   {maxHeight:300, minWidth:615, maxWidth:700, closeButton:false});
 	
 	var Oracildo = L.marker([-25.750623, -53.064017]).addTo(map)
 		.bindPopup('<b>Oracildo Vieira</b><br /><br /><iframe width="300" height="168.75" src="https://www.youtube.com/embed/JDT1NFGZ_LI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>', {"maxWidth":"1000px"});

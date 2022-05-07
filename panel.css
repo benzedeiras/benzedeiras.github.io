@@ -68,12 +68,12 @@ img {
   /* text-decoration: none; */
   /* font-size: 16px; */
   color: #f8f8f8;
-  display: block;
-  /* transition: 0.3s; */
+  border: 0;
+  border-top: 1px solid #8c8c8c;
+  border-bottom: 1px solid #fff;
   text-align: center;
-  width: 330px;
-  /* font-weight: bold; */
-  text-justify: inter-word;
+  width: 80%;
+  /* text-justify: inter-word; */
 }
 
 .sidepanel title {

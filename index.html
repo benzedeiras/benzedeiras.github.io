@@ -14,7 +14,7 @@
   <div id="mySidepanel" class="sidepanel">
     <close href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</close>
 
-    <a  href="https://www.instagram.com/benzedeirasdv/">
+    <a style="text-decoration : none" href="https://www.instagram.com/benzedeirasdv/">
       <div class="row">
         <div class="column2">
           <img src="https://cdn.iconscout.com/icon/free/png-256/instagram-1865894-1581910.png" srcset="https://cdn.iconscout.com/icon/free/png-512/instagram-1865894-1581910.png 2x" alt="Instagram Logo Icon" width="24px" class="insta">
@@ -93,7 +93,11 @@
 
 <script>
   function openNav() {
-      document.getElementById("mySidepanel").style.width = "450px";
+      if (screen.width > 700) {
+        document.getElementById("mySidepanel").style.width = "450px";
+      } else {
+        document.getElementById("mySidepanel").style.width = "100%";
+      }
   }
   
   function closeNav() {
