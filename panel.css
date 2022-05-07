@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 95%;
+  top: 0;
+  left: 0;
+  background-color: #0e593e;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel close {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f8f8f8;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel close:hover {
+  color: #2d785d;
+}
+
+
+.sidepanel title {
+  padding: 8px 32px 2px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #f8f8f8;
+  display: block;
+  transition: 0.3s;
+  text-align: justify;
+  font-weight: bold;
+  text-justify: inter-word;
+}
+
+.sidepanel p {
+  padding: 2px 32px 8px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #f8f8f8;
+  display: block;
+  transition: 0.3s;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* .sidepanel a:hover { */
+/*   color: #f1f1f1; */
+/* } */
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  position:fixed;
+  top: 30;
+  right: 1;
+  background-color: #0e593e;
+  color: white;
+  padding: 10px 15px;
+  margin: 10px 10px;
+  border: 0;
+}
+
+.openbtn:hover {
+  background-color:#2d785d;
+}

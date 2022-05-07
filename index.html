@@ -1,99 +1,62 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Saberes de Benzedeiras</title>
-	
-	<!-- <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" /> -->
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+  <title>Saberes de Benzedeiras</title>
 
-    <script src="./dv.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico" />
 
-	<style>
-		html, body {
-			height: 100%;
-			margin: 0;
-		}
-		.leaflet-container {
-			height: 100%;
-			width: 100%;
-			/* max-width: 100%; */
-			/* max-height: 100%; */
-		}
-	</style>
-
-	
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./panel.css"/>
 </head>
 <body>
 
+  <div id="mySidepanel" class="sidepanel">
+    <close href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</close>
+    <title>Objetivo</title>
+    <p>Promover  o reconhecimento e visibilidade na sociedade local bem como
+    junto ao poder público municipal, do patrimônio cultural imaterial que a
+    prática da benzedura representa para o município.</p>
 
-<div id="map" style="width: 100%; height: 100%;"></div>
+    <title>Você sabia que no Estado do Paraná existe uma lei que reconhece as benzedeiras e benzedores como patrimônio imaterial?</title>
+    <p>Essa lei ordinária estadual Nº 19.689/2018, determina que é dever do
+    Estado garantir o exercício de todos os ofícios tradicionais de saúde
+    popular e cura religiosa, incentivando a valorização e difusão destas
+    manifestações culturais.</p>
+
+    <title>O que é Patrimônio Imaterial?</title>
+    <p>A Constituição Federal brasileira de 1988, em seu artigo 216, define como
+    patrimônio cultural “os bens de natureza material e imaterial, portadores de
+    referência à identidade, à ação, à memória dos diferentes grupos formadores
+    da sociedade brasileira”, incluindo na alínea II “os modos criar, fazer e
+    viver”. O artigo ainda afirma que “o poder público, com a colaboração da
+    comunidade, promoverá e protegerá o patrimôniocultural brasileiro, por meio
+    de inventários, registros e demais formas de preservação”</p>
+    <title>Qual a importância de mapear as benzedeiras?</title>
+    <p>É uma ferramenta importante para a formação de grupos sociais organizados
+    em identidades coletivas. Permite que eles, juntamente com suas entidades,
+    lutem pela implementação de políticas públicas de reconhecimento e
+    valorização dos conhecimentos tradicionais presentesnos ofícios tradicionais
+    de cura religiosa e saúde popular.</p>
+
+    <!-- <a href="#">Services</a> -->
+    <!-- <a href="#">Clients</a> -->
+    <!-- <a href="#">Contact</a> -->
+  </div>
+
+  <button class="openbtn" onclick="openNav()">☰ Sobre o projeto</button>
+
+  <iframe src="./map.html" frameborder="0" style="border:none; display:block; width:100vw; height:100vh"></iframe>
 
 <script>
-
-	var map = L.map('map').setView([-25.75, -53.056944444444], 12);
-
-    var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-		maxZoom: 18,
-		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
-			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-		id: 'mapbox/streets-v11',
-		tileSize: 512,
-		zoomOffset: -1
-	}).addTo(map);
-
-    var city = L.geoJSON(dv, {"style": {"fillOpacity": 0}}).addTo(map);
-
-	var Genoveva = L.marker([ -25.757614, -53.050725]).addTo(map)
-		.bindPopup('<b>Genoveva Joana Perin</b><br />Informações da benzedeira 1.');
-
-	var Elza = L.marker([-25.729627, -53.072821]).addTo(map)
-		.bindPopup('<b>Elza Margarida Bombarda Ricci</b><br />Informações da benzedeira 1.');
-
-	var Nair = L.marker([-25.729792, -53.071775]).addTo(map)
-		.bindPopup('<b>Nair Wagner</b><br />Informações da benzedeira 3.');
-
-	var Juvelina = L.marker([-25.730633, -53.070428]).addTo(map)
-		.bindPopup('<b>Maria Juvelina Da Silva</b><br /><br /><iframe width="300" height="168.75" src="https://www.youtube.com/embed/cnE5pSJOKOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>', {"maxWidth":"1000px"});
-	
-	var Catarina = L.marker([-25.727921, -53.061422]).addTo(map)
-		.bindPopup('<b>Catarina De Jesus Martins</b><br /><br /><iframe width="300" height="168.75" src="https://www.youtube.com/embed/S3JHWB1nr1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>', {"maxWidth":"1000px"});
-	
-	
-	var MariaFer = L.marker([-25.759721, -53.05838]).addTo(map)
-		.bindPopup('<b>Maria Helena Fernandes Costa</b><br /><br /><iframe width="300" height="168.75" src="https://www.youtube.com/embed/jmetupRBQXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>', {"maxWidth":"1000px"});
-	
-	var Juraci = L.marker([-25.740403, -53.057698]).addTo(map)
-		.bindPopup('<b>Juraci Zorzan</b><br /><br /><iframe width="300" height="168.75" src="https://www.youtube.com/embed/O-EApKwsCXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>', {"maxWidth":"1000px"});
-	
-	var Terezinha = L.marker([-25.755165, -53.071475]).addTo(map)
-		.bindPopup('<b>Terezinha Foiatto Bachi</b><br />Informações da benzedeira 3.');
-	
-	var Oracildo = L.marker([-25.750623, -53.064017]).addTo(map)
-		.bindPopup('<b>Oracildo Vieira</b><br /><br /><iframe width="300" height="168.75" src="https://www.youtube.com/embed/JDT1NFGZ_LI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>', {"maxWidth":"1000px"});
-	
-	
-	var Marizete = L.marker([-25.758054, -53.059544]).addTo(map)
-		.bindPopup('<b>Marizete Perin</b><br />Informações da benzedeira 3.');
-
-	var popup = L.popup()
-		.setLatLng([-25.75, -53.256944444444])
-		.setContent('I am a standalone popup.')
-		.openOn(map);
-
-	function onMapClick(e) {
-		popup
-			.setLatLng(e.latlng)
-			.setContent('You clicked the map at ' + e.latlng.toString())
-			.openOn(map);
-	}
-
-	map.on('click', onMapClick);
-
+  function openNav() {
+      document.getElementById("mySidepanel").style.width = "450px";
+  }
+  
+  function closeNav() {
+      document.getElementById("mySidepanel").style.width = "0";
+  }
 </script>
+
 </body>
 </html>
