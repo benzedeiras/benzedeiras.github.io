@@ -10,6 +10,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 32px;
+  margin-top: 32px;
 
 }
 
@@ -26,13 +27,13 @@ img {
   width: 0;
   position: fixed;
   z-index: 1;
-  height: 94%;
+  height: 100%;
   top: 0;
   left: 0;
   background-color: #0e593e;
   overflow-x: hidden;
   transition: 0.1s;
-  padding-top: 60px;
+  /* padding-top: 60px; */
 }
 
 .sidepanel close {
@@ -50,7 +51,7 @@ img {
 
 .sidepanel name {
   font-family: "Garamond", serif;
-  padding: 8px 32px 2px 32px;
+  padding: 8px 32px 8px 32px;
   text-decoration: none;
   /* text-decoration: underline; */
   font-size: 19px;
@@ -59,6 +60,19 @@ img {
   transition: 0.3s;
   text-align: justify;
   font-weight: bold;
+  text-justify: inter-word;
+}
+
+.sidepanel hr {
+  /* margin: 8px 8px 8px 8px; */
+  /* text-decoration: none; */
+  /* font-size: 16px; */
+  color: #f8f8f8;
+  display: block;
+  /* transition: 0.3s; */
+  text-align: center;
+  width: 330px;
+  /* font-weight: bold; */
   text-justify: inter-word;
 }
 
@@ -97,6 +111,14 @@ img {
   text-justify: inter-word;
 }
 
+.sidepanel instatext {
+  padding: 16px 32px 0px 8px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #f8f8f8;
+  display: block;
+}
+
 /* .sidepanel a:hover { */
 /*   color: #f1f1f1; */
 /* } */
@@ -123,18 +145,33 @@ img {
 }
 
 .insta {
-  font-size: 20px;
+  /* font-size: 20px; */
   /* border-radius: 10px; */
   cursor: pointer;
-  position:fixed;
-  bottom: 1;
+  /* position:fixed; */
+  /* bottom: 1; */
+  text-align: right;
   /* right: 1; */
   /* background-color: #0e593e; */
   /* color: white; */
-  padding: 10px 15px;
-  margin: 0px 210px;
-  border: 0;
+  /* padding: 10px 15px; */
+  margin: 16px 0px 0px 32px;
+  /* border: 0; */
 }
+
+/* .insta { */
+/*   font-size: 20px; */
+/*   /\* border-radius: 10px; *\/ */
+/*   cursor: pointer; */
+/*   position:fixed; */
+/*   bottom: 1; */
+/*   /\* right: 1; *\/ */
+/*   /\* background-color: #0e593e; *\/ */
+/*   /\* color: white; *\/ */
+/*   padding: 10px 15px; */
+/*   margin: 0px 210px; */
+/*   border: 0; */
+/* } */
 
 .openbtn:hover {
   background-color:#2d785d;

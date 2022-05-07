@@ -13,10 +13,34 @@
 
   <div id="mySidepanel" class="sidepanel">
     <close href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</close>
+
+    <a  href="https://www.instagram.com/benzedeirasdv/">
+      <div class="row">
+        <div class="column2">
+          <img src="https://cdn.iconscout.com/icon/free/png-256/instagram-1865894-1581910.png" srcset="https://cdn.iconscout.com/icon/free/png-512/instagram-1865894-1581910.png 2x" alt="Instagram Logo Icon" width="24px" class="insta">
+        </div>
+        <div class="column2">
+          <instatext> @benzedeirasdv </instatext>
+        </div>
+    </div></a>
+
+    <!-- <a  href="https://www.instagram.com/benzedeirasdv/"> -->
+    <!--   <div class="row"> -->
+    <!--     <div class="column2"> -->
+    <!--       <img src="./images/yt.png" alt="yt logo" width="24px" class="insta"> -->
+    <!--     </div> -->
+    <!--     <div class="column2"> -->
+    <!--       <instatext> @benzedeirasdv </instatext> -->
+    <!--     </div> -->
+    <!-- </div></a> -->
+
+
     <img src="./images/logo.png" alt="Logo" style="width:360px;">
+
     <name> Saberes de Benzedeiras e Benzedores: reconhecimento de patrimônio
     cultural no sudoeste paranaense.</name>
-    <title>__________________________________________________________</title>
+    <!-- <title>__________________________________________________________</title> -->
+    <hr>
     <title>Objetivo</title>
     <p>Promover  o reconhecimento e visibilidade na sociedade local bem como
     junto ao poder público municipal, do patrimônio cultural imaterial que a
@@ -63,7 +87,7 @@
 
   <button class="openbtn" onclick="openNav()">☰ Sobre o projeto</button>
 
-  <a  href="https://www.instagram.com/benzedeirasdv/"><img src="https://cdn.iconscout.com/icon/free/png-256/instagram-1865894-1581910.png" srcset="https://cdn.iconscout.com/icon/free/png-512/instagram-1865894-1581910.png 2x" alt="Instagram Logo Icon" width="48px" class="insta"> </a>
+  <!-- <a  href="https://www.instagram.com/benzedeirasdv/"><img src="https://cdn.iconscout.com/icon/free/png-256/instagram-1865894-1581910.png" srcset="https://cdn.iconscout.com/icon/free/png-512/instagram-1865894-1581910.png 2x" alt="Instagram Logo Icon" width="48px" class="insta"> </a> -->
 
   <iframe id="map" src="./map.html" frameborder="0" style="border:none; display:block; width:100vw; height:100vh"></iframe>
 
@@ -75,6 +99,16 @@
   function closeNav() {
       document.getElementById("mySidepanel").style.width = "0";
   }
+
+  var panel = document.getElementById('mySidepanel');
+  // Listen for click events on body
+  document.body.addEventListener('click', function (event) {
+  if (panel.contains(event.target)) {
+      closeNav();
+  } else {
+  console.warn('clicked outside');
+  }
+  });
 </script>
 
 </body>
