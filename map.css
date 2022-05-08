@@ -20,7 +20,7 @@
 .text {
   display: flex;
   flex: 70%;
-  margin: 15px 15px 15px 15px;
+  margin: 0px 15px 15px 25px;
   /* position: absolute; */
   justify-content: center;
   align-items: center;
@@ -34,4 +34,5 @@
 .name {
   text-align:center;
   font-size:18px;
+  margin-top: 15px;
 }
