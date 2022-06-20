@@ -1,0 +1,88 @@
+.projeto ptitle {
+    padding: 32px;
+  /* text-decoration: none; */
+  font-size: 18px;
+  /* color: #f8f8f8; */
+  /* display: block; */
+  /* transition: 0.3s; */
+  /* text-align: justify; */
+  font-weight: bold;
+  /* text-justify: inter-word; */
+}
+
+.projeto p {
+  padding: 8px 32px 2px 32px;
+  /* text-decoration: none; */
+  font-size: 18px;
+  /* color: #f8f8f8; */
+  /* display: block; */
+  /* transition: 0.3s; */
+  text-align: justify;
+  /* font-weight: bold; */
+  /* text-justify: inter-word; */
+}
+
+.contato ctitle {
+  padding: 0px;
+  /* text-decoration: none; */
+  font-size: 20px;
+  /* color: #f8f8f8; */
+  /* display: block; */
+  /* transition: 0.3s; */
+  text-align: left;
+  font-weight: bold;
+  /* text-justify: inter-word; */
+}
+
+.contato cp {
+  padding: 0;
+  /* text-decoration: none; */
+  font-size: 18px;
+  /* color: #f8f8f8; */
+  /* display: block; */
+  /* transition: 0.3s; */
+  text-align: right;
+}
+
+.fa {
+  padding: 15px;
+  margin: 5px;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #c13584;
+  color: white;
+}
+
+.flex-row-container {
+    /* background: #aaa; */
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: top;
+    justify-content: center;
+}
+.flex-row-container > .flex-row-item {
+    flex: 1 1 30%; /*grow | shrink | basis */
+    /* height: 100px; */
+}
+
+.flex-row-container > .flex-row-duplo {
+    flex: 1 1 50%; /*grow | shrink | basis */
+    /* height: 100px; */
+}
