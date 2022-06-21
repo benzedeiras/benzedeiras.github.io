@@ -4,7 +4,7 @@
     "Descrição": "loren Ipsom",
     "Imagem": "./images/genoveva.png",
     "Video": "https://example.com",
-    "Endereço": "Bairro jardim da colina"
+    "Endereço": "Bairro São Francisco Xavier"
   },
   "Elza": {
     "Nome": "Elza Margarida Bombarda Ricci",
@@ -20,11 +20,18 @@
     "Video": "https://www.youtube.com/watch?v=9MFisSUaam4&t=99s",
     "Endereço": "Comunidade São Valentim"
   },
-  "Dorvalina": {
-    "Nome": "Genoveva Joana Perin",
-    "Descrição": "loren Ipsom",
+  "Nair": {
+    "Nome": "Nair Wagner",
+    "Descrição": "Dona Nair reside há 62 anos em Dois Vizinhos. Aprendeu a maior parte dos seus benzimentos aos 16 anos com a sua Avó que já tinha o dom. Atualmente benze de amarelão (e faz as garrafadas), quebrante, pulgas, olho gordo, bicha, mãe do corpo, piolho de galinha, mordida de qualquer bicho ou inseto. Dona Nair benze crianças, adultos e idosos. A maioria das pessoas que a procuram são da cidade, mas atende muita gente de fora pelo telefone. Ainda não repassou seus conhecimentos tradicionais de cura, e acredita que quando ensina outra pessoa, seu dom enfraquece. Nos disse entretanto que quando encontrar alguém que lhe peça e tenha a vontade de aprender, ela ensinará.",
     "Imagem": "./images/logo.png",
-    "Video": "https://example.com",
-    "Endereço": "Jardim da colina"
+    "Video": "",
+    "Endereço": "Bairro Jardim da colina"
+  },
+  "Terezinha": {
+    "Nome": "Terezinha Foiatto Bachi",
+    "Descrição": "Dona Terezinha reside há aproximadamente 60 anos no Paraná. Prática o benzimento desde seus 17 anos de idade, quando seu pai que também benzia quis que ela aprendesse. Seu pai tinha aprendido com o avô de Dona Terezinha, tornando este conhecimento como herança de família. Atualmente benze para cobreiro, zipela e faz simpatia para bichas. Dona Terezinha é mais procurada pela comunidade local, mas por vezes também é procurada por pessoas do interior. Benze principalmente mulheres, crianças e jovens de cobreiro. Faz simpatia para bichas em crianças e homens em comparação a procuram bem pouco. Está repassando seus conhecimentos tradicionais de cura para uma de suas filhas, para que esse conhecimento não se perca.",
+    "Imagem": "./images/terezinha.png",
+    "Video": "",
+    "Endereço": "Bairro Esperança"
   }
 }
