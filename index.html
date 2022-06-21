@@ -12,25 +12,32 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
         integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
         crossorigin="" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
         integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
         crossorigin=""></script>
 
     <link rel="stylesheet" href="./novo.css">
+    <link rel="stylesheet" href="./sidePanel.css">
     <script src="./dv.js"></script>
 
-    <style>
-        body {
-            font-family: "Lato", sans-serif
-        }
-
-        .mySlides {
-            display: none
-        }
-    </style>
 </head>
 
 <body>
+
+    <div id="benzePanel" class="sidepanel">
+        <close href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</close>
+
+        <img width="80%" class="benzeFoto">
+        <div class="benzeName"></div>
+
+        <a style="text-decoration : none" class="entreLink">
+            <img width="80%" class="entrevista">
+        </a>
+        <div class="benzeDesc"></div>
+        <div class="benzeAddr"></div>
+    </div>
+
 
     <!-- Navbar -->
     <div class="w3-top">
@@ -56,6 +63,7 @@
     </div>
 
     <!-- Page content -->
+
     <div class="w3-content" style="max-width:2000px;margin-top:46px;">
 
         <div class="w3-container w3-content w3-center" style="max-width:85%" id="home">
@@ -481,12 +489,66 @@
                         }
 
                         // When the user clicks anywhere outside of the modal, close it
-                        var modal = document.getElementById('ticketModal');
+                        // var modal = document.getElementById('ticketModal');
+                        // window.onclick = function (event) {
+                        //     if (event.target == modal) {
+                        //         modal.style.display = "none";
+                        //     }
+                        // }
+
+
+
+                        function openBenze(name) {
+                            $.getJSON('benzedeiras.json', function (data) {
+                                $.each(data, function (key, val) {
+                                    if (key == name) {
+                                        $(".benzeName").html(val.Nome);
+                                        $(".benzeFoto").attr("src", val.Imagem);
+                                        $(".benzeDesc").html(val.Descrição);
+                                        $(".benzeAddr").html(val.Endereço);
+                                        console.log("============================")
+                                        console.log(val.Video)
+                                        console.log("============================")
+                                        if (val.Video == "") {
+                                            $(".entrevista").attr("src", "");
+                                        } else {
+                                            $(".entrevista").attr("src", "images/vejaEntre.png");
+                                        }
+                                        $(".entreLink").attr("href", val.Video);
+                                    }
+                                });
+                            });
+                            openNav()
+                        }
+
+
+
+                        var canClosePanel = false;
+
+                        function openNav() {
+                            if (screen.width > 700) {
+                                document.getElementById("benzePanel").style.width = "450px";
+                            } else {
+                                document.getElementById("benzePanel").style.width = "100%";
+                            }
+                            canClosePanel = false;
+                        }
+
+                        function closeNav() {
+                            document.getElementById("benzePanel").style.width = "0";
+                        }
+
+
+                        var sidePanel = document.getElementById('benzePanel');
                         window.onclick = function (event) {
-                            if (event.target == modal) {
-                                modal.style.display = "none";
+                            if (canClosePanel && event.target != sidePanel) {
+                                console.log("Close");
+                                closeNav()
+                            } else if (!canClosePanel) {
+                                canClosePanel = true
                             }
                         }
+
                     </script>
 
                     <script src="./map.js"></script>

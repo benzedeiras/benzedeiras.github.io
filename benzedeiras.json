@@ -1,0 +1,30 @@
+{
+  "Genoveva": {
+    "Nome": "Genoveva Joana Perin",
+    "Descrição": "loren Ipsom",
+    "Imagem": "./images/genoveva.png",
+    "Video": "https://example.com",
+    "Endereço": " Bairro jardim da colina"
+  },
+  "Elza": {
+    "Nome": "Elza Margarida Bombarda Ricci",
+    "Descrição": "Dona Elza reside há aproximadamente 70 anos no Paraná. Benze há 40 anos quando sua comadre  quis lhe ensinar a benzer de rizipela. Dona Elza nos relata que segundo sua comadre, só se pode repassar os conhecimentos do benzimentos para três pessoas ao todo. Atualmente benze apenas para rizipela e reza o responso de Santo Antônio. Dona Elza é mais procurada pelos familiares, já que não é conhecida como benzedeira na comunidade. Já repassou seus conhecimentos tradicionais de cura para uma pessoa, e nos disse que só pode repassar para mais duas, ou seu benzimento perderia o efeito.",
+    "Imagem": "./images/elza.png",
+    "Video": "",
+    "Endereço": "Bairro jardim da colina"
+  },
+  "Silvalina": {
+    "Nome": "Elza Margarida Bombarda Ricci",
+    "Descrição": "Dona Elza reside há aproximadamente 70 anos no Paraná. Benze há 40 anos quando sua comadre  quis lhe ensinar a benzer de rizipela. Dona Elza nos relata que segundo sua comadre, só se pode repassar os conhecimentos do benzimentos para três pessoas ao todo. Atualmente benze apenas para rizipela e reza o responso de Santo Antônio. Dona Elza é mais procurada pelos familiares, já que não é conhecida como benzedeira na comunidade. Já repassou seus conhecimentos tradicionais de cura para uma pessoa, e nos disse que só pode repassar para mais duas, ou seu benzimento perderia o efeito.",
+    "Imagem": "./images/elza.png",
+    "Video": "",
+    "Endereço": "Bairro jardim da colina"
+  },
+  "Dorvalina": {
+    "Nome": "Genoveva Joana Perin",
+    "Descrição": "loren Ipsom",
+    "Imagem": "./images/logo.png",
+    "Video": "https://example.com",
+    "Endereço": "Jardim da colina"
+  }
+}
