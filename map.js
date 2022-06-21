@@ -63,6 +63,20 @@ Isa.name = "Isa"
 var Josefa = L.marker([-25.741253, -53.053562]).addTo(fGroup);
 Josefa.name = "Josefa"
 
+var Josefina = L.marker([-25.7133180000000, -53.2064809722222]).addTo(fGroup);
+Josefina.name = "Josefina"
+
+var Sueli = L.marker([-25.7182670000000, -53.1831579722222]).addTo(fGroup);
+Sueli.name = "Sueli"
+
+var Soeli = L.marker([-25.7182279722222, -53.1826689722222]).addTo(fGroup);
+Soeli.name = "Soeli"
+
+var Mcarmo = L.marker([-25.7626039722222, -53.0732980000000]).addTo(fGroup);
+Mcarmo.name = "Mcarmo"
+
+var Marizete2 = L.marker([-25.7487800000000, -53.071212]).addTo(fGroup);
+Marizete2.name = "Marizete2"
 
 var popup = L.popup();
 
