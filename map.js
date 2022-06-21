@@ -1,4 +1,4 @@
-var corner1 = L.latLng(-26.25, -53.556944444444), corner2 = L.latLng(-25.25, -52.556944444444), bounds = L.latLngBounds(corner1, corner2);
+var corner1 = L.latLng(-25.587216, -53.310178), corner2 = L.latLng(-25.904497, -52.830942), bounds = L.latLngBounds(corner1, corner2);
 
 var map = L.map('map', { maxBounds: bounds, minZoom: 10.5, wheelPxPerZoomLevel: 100000, zoomControl: false }).setView([-25.75, -53.056944444444], 12);
 
