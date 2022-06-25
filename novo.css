@@ -116,6 +116,7 @@
 .card-container > .card-texto {
     flex: 1 1 auto; /*grow | shrink | basis */
     max-width: calc(100% - 200px);
+    width: 500px;
     align-items: center;
     /* height: 100px; */
 }
