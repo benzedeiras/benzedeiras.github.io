@@ -1,13 +1,14 @@
 .projeto ptitle {
-    padding: 32px;
+  /* padding: 32px; */
   /* text-decoration: none; */
   font-size: 18px;
   /* color: #f8f8f8; */
   /* display: block; */
   /* transition: 0.3s; */
-  /* text-align: justify; */
+  /* text-align: center; */
   font-weight: bold;
-  /* text-justify: inter-word; */
+  max-width: 250px;
+  /* text-justify: center; */
 }
 
 .card-titulo {
@@ -157,6 +158,7 @@
 }
 .flex-row-container > .flex-row-item {
     flex: 1 1 30%; /*grow | shrink | basis */
+    min-width:400px;
     /* height: 100px; */
 }
 
@@ -167,6 +169,8 @@
 
 .flex-row-title > .flex-logo {
     flex: 1 1 25%; /*grow | shrink | basis */
+    min-width:250px;
+    max-width:450px;
     /* height: 100px; */
 }
 

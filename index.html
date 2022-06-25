@@ -45,7 +45,7 @@
             <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
                 href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i
                     class="fa fa-bars"></i></a>
-            <a href="#mapa" class="w3-bar-item w3-button w3-padding-large">MAPA</a>
+            <a href="#mapa" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MAPA</a>
             <a href="#sobr" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SOBRE</a>
             <a href="#doc" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DOCUMENTÁRIO</a>
             <a href="#equip" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EQUIPE</a>
@@ -54,12 +54,13 @@
     </div>
 
     <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:40px">
-        <a href="#mapa" class="w3-bar-item w3-button w3-padding-large">MAPA</a>
-        <a href="#sobr" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SOBRE</a>
-        <a href="#doc" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DOCUMENTÁRIO</a>
-        <a href="#equip" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EQUIPE</a>
-        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTATO</a>
+    <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-top"
+        style="margin-top:0px; background:#314a30; color:white">
+        <a href="#mapa" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MAPA</a>
+        <a href="#sobr" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SOBRE</a>
+        <a href="#doc" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DOCUMENTÁRIO</a>
+        <a href="#equip" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">EQUIPE</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTATO</a>
     </div>
 
     <!-- Page content -->
