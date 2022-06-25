@@ -1,11 +1,4 @@
 {
-  "Genoveva": {
-    "Nome": "Genoveva Joana Perin",
-    "Descrição": "loren Ipsom",
-    "Imagem": "./images/genoveva.png",
-    "Video": "https://example.com",
-    "Endereço": "Bairro São Francisco Xavier"
-  },
   "Elza": {
     "Nome": "Elza Margarida Bombarda Ricci",
     "Descrição": "Dona Elza reside há aproximadamente 70 anos no Paraná. Benze há 40 anos quando sua comadre  quis lhe ensinar a benzer de rizipela. Dona Elza nos relata que segundo sua comadre, só se pode repassar os conhecimentos do benzimentos para três pessoas ao todo. Atualmente benze apenas para rizipela e reza o responso de Santo Antônio. Dona Elza é mais procurada pelos familiares, já que não é conhecida como benzedeira na comunidade. Já repassou seus conhecimentos tradicionais de cura para uma pessoa, e nos disse que só pode repassar para mais duas, ou seu benzimento perderia o efeito.",
@@ -33,5 +26,110 @@
     "Imagem": "./images/terezinha.png",
     "Video": "",
     "Endereço": "Bairro Esperança"
+  },
+  "Dorvalina": {
+    "Nome": "Dorvalina Macagnan Da Silva",
+    "Descrição": "Dona Dorvalina mora na comunidade Santa Lúcia, interior de Dois Vizinhos/PR. Começou a apreender o ofício de benzer com sua mãe e continuou apreendendo sozinha. Benze de Ar; Impinge; Rendidura; Cobreiro; Quebrante; Bicha… e de outras benzeduras que não foram citadas na entrevista. Dona Dorvalina nunca anotou nenhum benzimento, tem tudo guardado na cabeça, e só usa orações nas benzas. Tem seis filhos, e ensinou apenas para uma filha o ofício de benzer. As pessoas vêm de Quedas do Iguaçu, da comunidade, de dois vizinhos e região atrás de seu dom.",
+    "Imagem": "./images/dorvalina.png",
+    "Video": "https://www.youtube.com/watch?v=Wtm57nwttPI&t=105s",
+    "Endereço": "Comunidade Santa Lúcia"
+  },
+  "Isa": {
+    "Nome": "Graciosa Isabel Chiodelli",
+    "Descrição": null,
+    "Imagem": "./images/isa.png",
+    "Video": "https://www.youtube.com/watch?v=Db2ikOoqHzw&t=5s",
+    "Endereço": "Comunidade São Valentin"
+  },
+  "MariaFer": {
+    "Nome": "Maria Helena Fernandes Costa",
+    "Descrição": null,
+    "Imagem": "./images/mfernanda.png",
+    "Video": "https://www.youtube.com/watch?v=jmetupRBQXY&t=68s",
+    "Endereço": "Bairro Centro Sul"
+  },
+  "Juraci": {
+    "Nome": "Juraci Zorzan",
+    "Descrição": null,
+    "Imagem": "./images/juraci.png",
+    "Video": "https://www.youtube.com/watch?v=O-EApKwsCXA&t=37s",
+    "Endereço": "Bairro Centro Norte"
+  },
+  "Juvelina": {
+    "Nome": "Maria Juvelina Da Silva",
+    "Descrição": null,
+    "Imagem": "./images/juvelina.png",
+    "Video": "https://www.youtube.com/watch?v=cnE5pSJOKOU",
+    "Endereço": "Bairro Jardim da Colina"
+  },
+  "Catarina": {
+    "Nome": "Catarina De Jesus Martins",
+    "Descrição": null,
+    "Imagem": "./images/catarina.png",
+    "Video": "https://www.youtube.com/watch?v=S3JHWB1nr1I&t=24s",
+    "Endereço": "Bairro Margarida Galvão"
+  },
+  "Oracildo": {
+    "Nome": "Oracildo Vieira",
+    "Descrição": null,
+    "Imagem": "./images/oracildo.png",
+    "Video": "https://www.youtube.com/watch?v=JDT1NFGZ_LI&t=68s",
+    "Endereço": "Bairro Sagrada Família"
+  },
+  "Soeli": {
+    "Nome": "Soeli Devens",
+    "Descrição": null,
+    "Imagem": "./images/soeli.png",
+    "Video": "https://www.youtube.com/watch?v=GlGb84k-dvE&t=36s",
+    "Endereço": "Comunidade São Francisco do bandeira"
+  },
+  "Sueli": {
+    "Nome": "Sueli Maria Devens",
+    "Descrição": null,
+    "Imagem": "./images/sueli.png",
+    "Video": "https://www.youtube.com/watch?v=vqggcI_fbhE&t=2s",
+    "Endereço": "Comunidade São Francisco do bandeira"
+  },
+  "Josefina": {
+    "Nome": "Josefina Cordeiro ",
+    "Descrição": null,
+    "Imagem": "./images/josefina.png",
+    "Video": "https://www.youtube.com/watch?v=1QUfUr3KO-s",
+    "Endereço": "Comunidade São Francisco do bandeira"
+  },
+  "Marizete": {
+    "Nome": "Marizete Perin",
+    "Descrição": null,
+    "Imagem": "./images/marizete.png",
+    "Video": null,
+    "Endereço": "Bairro Centro Sul"
+  },
+  "Josefa": {
+    "Nome": "Josefa Gerwinski",
+    "Descrição": null,
+    "Imagem": "./images/josefa.png",
+    "Video": null,
+    "Endereço": "Bairro Das Torres"
+  },
+  "Mcarmo": {
+    "Nome": "Maria do Carmo Alves",
+    "Descrição": null,
+    "Imagem": "./images/MariaCarmo.png",
+    "Video": null,
+    "Endereço": null
+  },
+  "Marizete2": {
+    "Nome": "Margarete ",
+    "Descrição": null,
+    "Imagem": "./images/margarete.png",
+    "Video": null,
+    "Endereço": null
+  },
+  "Genoveva": {
+    "Nome": "Genoveva",
+    "Descrição": null,
+    "Imagem": "./images/genoveva.png",
+    "Video": "https://youtu.be/h8KUTNlxFko",
+    "Endereço": "Bairro São Francisco Xavier"
   }
 }
