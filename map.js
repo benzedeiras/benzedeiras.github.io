@@ -79,7 +79,7 @@ var Marizete2 = L.marker([-25.7487800000000, -53.071212]).addTo(fGroup);
 Marizete2.name = "Marizete2"
 
 var Idilia = L.marker([-25.756111, -53.063611]).addTo(fGroup);
-Idilia.name = "Idília"
+Idilia.name = "Idilia"
 
 var Marli = L.marker([-25.765638, -53.063364]).addTo(fGroup);
 Marli.name = "Marli"

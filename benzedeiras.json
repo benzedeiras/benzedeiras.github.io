@@ -131,8 +131,8 @@
     "Imagem": "./images/genoveva.png",
     "Video": "https://youtu.be/h8KUTNlxFko",
     "Endereço": "Bairro São Francisco Xavier"
-},
-"Idilia": {
+  },
+  "Idilia": {
     "Nome": "Idília Nunes De Mello",
     "Descrição": "Dona Idília, começou a benzer com 49 anos, quando procurava a cura para a sua própria doença. Foi Dona Lurdes já falecida, quem lhe curou e ensinou outros benzimentos, “ela me ensinou todos e graças a Deus eu aprendi”, nos contou. Benze da mãe do corpo; Lombriga; Quebrante; Mal Olhado; Inveja; Ciúme; Cobreiro; Susto, Erisipela, Arca Caída; Ar e outros. Em sua família Dona Idilia é a única benzedeira, e usa seu dom e oração nos benzimentos e conta: “seu dom tem que estar ali, na reza, no benzimento, no que está fazendo”. Já repassou conhecimento, mas não seguiram praticando. Dona Idília é mais procurada por mães, que trazem seus filhos.",
     "Imagem": "./images/idilia.png",
@@ -152,6 +152,5 @@
     "Imagem": "./images/nelci.png",
     "Video": null,
     "Endereço": "Bairro Sagrada Família"
-    }
+  }
 }
-  
