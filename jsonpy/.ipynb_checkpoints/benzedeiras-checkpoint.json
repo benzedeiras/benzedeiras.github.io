@@ -1,0 +1,156 @@
+{
+  "Elza": {
+    "Nome": "Elza Margarida Bombarda Ricci",
+    "Descrição": "Dona Elza reside há aproximadamente 70 anos no Paraná. Benze há 40 anos quando sua comadre  quis lhe ensinar a benzer de rizipela. Dona Elza nos relata que segundo sua comadre, só se pode repassar os conhecimentos do benzimentos para três pessoas ao todo. Atualmente benze apenas para rizipela e reza o responso de Santo Antônio. Dona Elza é mais procurada pelos familiares, já que não é conhecida como benzedeira na comunidade. Já repassou seus conhecimentos tradicionais de cura para uma pessoa, e nos disse que só pode repassar para mais duas, ou seu benzimento perderia o efeito.",
+    "Imagem": "./images/elza.png",
+    "Video": null,
+    "Endereço": "Bairro jardim da colina"
+  },
+  "Silvalina": {
+    "Nome": "Silvalina Maia",
+    "Descrição": "Dona Silvalina, aprendeu a benzer com sua vizinha e sua mãe, que repassou o conhecimento que sua avó tinha. Tem quatro irmãos benzedores, e todos aprenderam ainda quando criança. Foi com os ensinamentos de sua avó que aprendeu a benzer berruga e nos disse “a gente tem aquele dom. Foi com a minha gente que eu apreendi”. Benze de susto; quebrante; praguinhas de horta e lavouras; das bichas; e também limpa ouvidos, ela nos contou: “muitos vão ao médico e não adianta e vem aqui e a gente limpa, faz 8 anos que eu faço isso.” As pessoas já vieram de Dois Vizinhos e Região atrás de seu dom. Sente-se feliz ao receber a notícia de que sua benza funcionou. Dona Silvana contou: “Gosto de benzer, deixo do meu serviço e faço com aquele amor”. Ao ser perguntada sobre a vontade de repassar esse dom adiante, ela nos respondeu: “Eu tento ensinar, mas não é todo mundo que acredita, que gosta de fazer. Era bom, a gente tá ficando numa idade, é bom que outro aprendesse”. Dona Silvalina tem um neto de 7 anos que já sabe benzer rendidura e contou que vai aprender a benzer como a avó.",
+    "Imagem": "./images/silvalina.png",
+    "Video": "https://www.youtube.com/watch?v=9MFisSUaam4&t=99s",
+    "Endereço": "Comunidade São Valentim"
+  },
+  "Nair": {
+    "Nome": "Nair Wagner",
+    "Descrição": "Dona Nair reside há 62 anos em Dois Vizinhos. Aprendeu a maior parte dos seus benzimentos aos 16 anos com a sua Avó que já tinha o dom. Atualmente benze de amarelão (e faz as garrafadas), quebrante, pulgas, olho gordo, bicha, mãe do corpo, piolho de galinha, mordida de qualquer bicho ou inseto. Dona Nair benze crianças, adultos e idosos. A maioria das pessoas que a procuram são da cidade, mas atende muita gente de fora pelo telefone. Ainda não repassou seus conhecimentos tradicionais de cura, e acredita que quando ensina outra pessoa, seu dom enfraquece. Nos disse entretanto que quando encontrar alguém que lhe peça e tenha a vontade de aprender, ela ensinará.",
+    "Imagem": "./images/logo.png",
+    "Video": null,
+    "Endereço": "Bairro Jardim da colina"
+  },
+  "Terezinha": {
+    "Nome": "Terezinha Foiatto Bachi",
+    "Descrição": "Dona Terezinha reside há aproximadamente 60 anos no Paraná. Prática o benzimento desde seus 17 anos de idade, quando seu pai que também benzia quis que ela aprendesse. Seu pai tinha aprendido com o avô de Dona Terezinha, tornando este conhecimento como herança de família. Atualmente benze para cobreiro, zipela e faz simpatia para bichas. Dona Terezinha é mais procurada pela comunidade local, mas por vezes também é procurada por pessoas do interior. Benze principalmente mulheres, crianças e jovens de cobreiro. Faz simpatia para bichas em crianças e homens em comparação a procuram bem pouco. Está repassando seus conhecimentos tradicionais de cura para uma de suas filhas, para que esse conhecimento não se perca.",
+    "Imagem": "./images/terezinha.png",
+    "Video": null,
+    "Endereço": "Bairro Esperança"
+  },
+  "Dorvalina": {
+    "Nome": "Dorvalina Macagnan Da Silva",
+    "Descrição": "Dona Dorvalina mora na comunidade Santa Lúcia, interior de Dois Vizinhos/PR. Começou a apreender o ofício de benzer com sua mãe e continuou apreendendo sozinha. Benze de Ar; Impinge; Rendidura; Cobreiro; Quebrante; Bicha… e de outras benzeduras que não foram citadas na entrevista. Dona Dorvalina nunca anotou nenhum benzimento, tem tudo guardado na cabeça, e só usa orações nas benzas. Tem seis filhos, e ensinou apenas para uma filha o ofício de benzer. As pessoas vêm de Quedas do Iguaçu, da comunidade, de dois vizinhos e região atrás de seu dom.",
+    "Imagem": "./images/dorvalina.png",
+    "Video": "https://www.youtube.com/watch?v=Wtm57nwttPI&t=105s",
+    "Endereço": "Comunidade Santa Lúcia"
+  },
+  "Isa": {
+    "Nome": "Graciosa Isabel Chiodelli",
+    "Descrição": null,
+    "Imagem": "./images/isa.png",
+    "Video": "https://www.youtube.com/watch?v=Db2ikOoqHzw&t=5s",
+    "Endereço": "Comunidade São Valentin"
+  },
+  "MariaFer": {
+    "Nome": "Maria Helena Fernandes Costa",
+    "Descrição": null,
+    "Imagem": "./images/mfernanda.png",
+    "Video": "https://www.youtube.com/watch?v=jmetupRBQXY&t=68s",
+    "Endereço": "Bairro Centro Sul"
+  },
+  "Juraci": {
+    "Nome": "Juraci Zorzan",
+    "Descrição": null,
+    "Imagem": "./images/juraci.png",
+    "Video": "https://www.youtube.com/watch?v=O-EApKwsCXA&t=37s",
+    "Endereço": "Bairro Centro Norte"
+  },
+  "Juvelina": {
+    "Nome": "Maria Juvelina Da Silva",
+    "Descrição": null,
+    "Imagem": "./images/juvelina.png",
+    "Video": "https://www.youtube.com/watch?v=cnE5pSJOKOU",
+    "Endereço": "Bairro Jardim da Colina"
+  },
+  "Catarina": {
+    "Nome": "Catarina De Jesus Martins",
+    "Descrição": null,
+    "Imagem": "./images/catarina.png",
+    "Video": "https://www.youtube.com/watch?v=S3JHWB1nr1I&t=24s",
+    "Endereço": "Bairro Margarida Galvão"
+  },
+  "Oracildo": {
+    "Nome": "Oracildo Vieira",
+    "Descrição": null,
+    "Imagem": "./images/oracildo.png",
+    "Video": "https://www.youtube.com/watch?v=JDT1NFGZ_LI&t=68s",
+    "Endereço": "Bairro Sagrada Família"
+  },
+  "Soeli": {
+    "Nome": "Soeli Devens",
+    "Descrição": null,
+    "Imagem": "./images/soeli.png",
+    "Video": "https://www.youtube.com/watch?v=GlGb84k-dvE&t=36s",
+    "Endereço": "Comunidade São Francisco do bandeira"
+  },
+  "Sueli": {
+    "Nome": "Sueli Maria Devens",
+    "Descrição": null,
+    "Imagem": "./images/sueli.png",
+    "Video": "https://www.youtube.com/watch?v=vqggcI_fbhE&t=2s",
+    "Endereço": "Comunidade São Francisco do bandeira"
+  },
+  "Josefina": {
+    "Nome": "Josefina Cordeiro ",
+    "Descrição": null,
+    "Imagem": "./images/josefina.png",
+    "Video": "https://www.youtube.com/watch?v=1QUfUr3KO-s",
+    "Endereço": "Comunidade São Francisco do bandeira"
+  },
+  "Marizete": {
+    "Nome": "Marizete Perin",
+    "Descrição": null,
+    "Imagem": "./images/marizete.png",
+    "Video": null,
+    "Endereço": "Bairro Centro Sul"
+  },
+  "Josefa": {
+    "Nome": "Josefa Gerwinski",
+    "Descrição": null,
+    "Imagem": "./images/josefa.png",
+    "Video": null,
+    "Endereço": "Bairro Das Torres"
+  },
+  "Mcarmo": {
+    "Nome": "Maria do Carmo Alves",
+    "Descrição": null,
+    "Imagem": "./images/MariaCarmo.png",
+    "Video": null,
+    "Endereço": null
+  },
+  "Marizete2": {
+    "Nome": "Margarete ",
+    "Descrição": null,
+    "Imagem": "./images/margarete.png",
+    "Video": null,
+    "Endereço": null
+  },
+  "Genoveva": {
+    "Nome": "Genoveva Joana Perin",
+    "Descrição": null,
+    "Imagem": "./images/genoveva.png",
+    "Video": "https://youtu.be/h8KUTNlxFko",
+    "Endereço": "Bairro São Francisco Xavier"
+  },
+  "Idilia": {
+    "Nome": "Idília Nunes De Mello",
+    "Descrição": "Dona Idília, começou a benzer com 49 anos, quando procurava a cura para a sua própria doença. Foi Dona Lurdes já falecida, quem lhe curou e ensinou outros benzimentos, “ela me ensinou todos e graças a Deus eu aprendi”, nos contou. Benze da mãe do corpo; Lombriga; Quebrante; Mal Olhado; Inveja; Ciúme; Cobreiro; Susto, Erisipela, Arca Caída; Ar e outros. Em sua família Dona Idilia é a única benzedeira, e usa seu dom e oração nos benzimentos e conta: “seu dom tem que estar ali, na reza, no benzimento, no que está fazendo”. Já repassou conhecimento, mas não seguiram praticando. Dona Idília é mais procurada por mães, que trazem seus filhos.",
+    "Imagem": "./images/idilia.png",
+    "Video": "https://www.youtube.com/watch?v=uolRnMm3_Ow&t=5s",
+    "Endereço": "Bairro Sagrada Família"
+  },
+  "Marli": {
+    "Nome": "Marli Gonçalves da Silva Carmo",
+    "Descrição": "Dona Marli reside há nove anos no bairro Nossa Senhora de Lourdes. Prática o benzimento desde seus sete anos de idade, quando seu Avô repassou seu dom. Benze de Bicha; Dor de cabeça; Dor de dente; Quebranto; Sol na cabeça; Mau olhado (em animais também); Ar; Cobreiro; Verruga; Amarelão; e Tireoide. Dona Marli possui especialidade em todos os benzimentos citados. Cultivas as plantas: espada-de-são-jorge, guiné, arruda, alecrim, hortelã, e manjericão em seu quintal e as usa nas praticas de cura. Dona Marli benze crianças, adultos e idosos. Beze a todos, vizinhos, familiares ou quem quer que a procure. Está repassando seus conhecimentos tradicionais de cura à sua filha.",
+    "Imagem": "./images/marli.png",
+    "Video": "https://www.youtube.com/watch?v=_LbJtR3JzgQ&t=96s",
+    "Endereço": "Bairro Nossa Senhora de Lourdes"
+  },
+  "Nelci": {
+    "Nome": "Nelci Chu",
+    "Descrição": "Dona Nelci mora no bairro Sagrada Família de Dois Vizinhos/PR. Começou o ofício de benzer com o chamado de Nossa Senhora Aparecida, quando tinha 9 anos. Benze de Umbigo rendido; quebranto; inveja; susto; de bichas; cobreiro; ar; erisipela; e terçol. Dona Nelci benze principalmente crianças, mas também atende adultos e idosos, da vizinhança, familiares e todos que a procuram.",
+    "Imagem": "./images/nelci.png",
+    "Video": null,
+    "Endereço": "Bairro Sagrada Família"
+  }
+}
