@@ -74,6 +74,20 @@
   text-justify: inter-word;
 }
 
+.benzeAno {
+  /* font-family: "Garamond", serif; */
+  padding: 8px 32px 8px 32px;
+  text-decoration: none;
+  /* text-decoration: underline; */
+  font-size: 15px;
+  color: #f8f8f8;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+  /* font-weight: bold; */
+  text-justify: inter-word;
+}
+
 .benzeFoto {
   /* padding: 8px 8px 8px 32px; */
   display: block;

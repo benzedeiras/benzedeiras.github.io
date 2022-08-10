@@ -36,6 +36,7 @@
         </a>
         <div class="benzeDesc"></div>
         <div class="benzeAddr"></div>
+        <div class="benzeAno"></div>
     </div>
 
 
@@ -390,6 +391,7 @@
                                             $(".entrevista").attr("src", "images/vejaEntre.png");
                                         }
                                         $(".entreLink").attr("href", val.Video);
+                                        $(".benzeAno").html("Entrevista realizada em " + val.Ano);
                                     }
                                 });
                             });
