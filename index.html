@@ -378,12 +378,16 @@
                                 $.each(data, function (key, val) {
                                     if (key == name) {
                                         $(".benzeName").html(val.Nome);
-                                        $(".benzeFoto").attr("src", val.Imagem);
+                                        if (val.Imagem == null) {
+                                            $(".benzeFoto").attr("src", "images/logo.png");
+                                        } else {
+                                            $(".benzeFoto").attr("src", val.Imagem);
+                                        }
                                         $(".benzeDesc").html(val.Descrição);
                                         $(".benzeAddr").html(val.Endereço);
-                                        console.log("============================")
-                                        console.log(val.Video)
-                                        console.log("============================")
+                                        // console.log("============================")
+                                        // console.log(val.Video)
+                                        // console.log("============================")
                                         if (val.Video == null) {
                                             $(".entrevista").attr("src", "");
                                         } else {
