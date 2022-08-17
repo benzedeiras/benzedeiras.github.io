@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./novo.css">
     <link rel="stylesheet" href="./sidePanel.css">
     <script src="./dv.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=0.4, user-scalable=yes" />
 
 </head>
 
@@ -41,28 +42,25 @@
 
 
     <!-- Navbar -->
-    <div class="w3-top">
-        <div class="w3-bar w3-card" style="background:#314a30; color:white;">
-            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
-                href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i
-                    class="fa fa-bars"></i></a>
-            <a href="#mapa" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MAPA</a>
-            <a href="#sobr" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SOBRE</a>
-            <a href="#doc" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DOCUMENTÁRIO</a>
-            <a href="#equip" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EQUIPE</a>
-            <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTATO</a>
+    <!-- <div class="w3-top">
+            <div class="w3-bar w3-card" style="background:#314a30; color:white;">
+                <a href="#mapa" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MAPA</a>
+                <a href="#sobr" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SOBRE</a>
+                <a href="#doc" class="w3-bar-item w3-button w3-padding-large w3-hide-small">DOCUMENTÁRIO</a>
+                <a href="#equip" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EQUIPE</a>
+                <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTATO</a>
+            </div>
         </div>
-    </div>
-
+     -->
     <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-    <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-top"
-        style="margin-top:0px; background:#314a30; color:white">
-        <a href="#mapa" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MAPA</a>
-        <a href="#sobr" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SOBRE</a>
-        <a href="#doc" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DOCUMENTÁRIO</a>
-        <a href="#equip" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">EQUIPE</a>
-        <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTATO</a>
-    </div>
+    <!-- <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-top"
+            style="margin-top:0px; background:#314a30; color:white">
+            <a href="#mapa" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MAPA</a>
+            <a href="#sobr" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SOBRE</a>
+            <a href="#doc" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DOCUMENTÁRIO</a>
+            <a href="#equip" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">EQUIPE</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTATO</a>
+        </div> -->
 
     <!-- Page content -->
 
@@ -71,7 +69,7 @@
         <div class="w3-container w3-content w3-center" style="max-width:85%" id="home">
             <div class="flex-row-title">
                 <div class="flex-logo">
-                    <img src="./images/logo-verde.png" alt="Patricia" style="width:100%; margin:10px;">
+                    <img src="./images/logo-verde.png" alt="Patricia" style="width:100%; margin:0px;">
                 </div>
                 <div class="flex-title">
 
@@ -152,7 +150,7 @@
                 </div>
 
                 <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:100%" id="equip">
-                    <h3 class="w3-center w3-padding-32">QUEM SOMOS:</h3>
+                    <h3 class="w3-center w3-padding-32">EQUIPE:</h3>
 
                     <div class="cards-container" style="margin:0;">
                         <div class="cards-duplo">
@@ -407,11 +405,20 @@
 
                         var canClosePanel = false;
 
+                        if (screen.width < 700) {
+                            document.getElementById("home").style.maxWidth = "100%";
+                            document.getElementById("sobr").style.maxWidth = "100%";
+
+                            document.getElementById("benzePanel").style.height = "50%";
+                            document.getElementById("benzePanel").style.marginTop = "25%";
+                        }
+
                         function openNav() {
+                            document.getElementById("benzePanel").style.width = "450px";
                             if (screen.width > 700) {
                                 document.getElementById("benzePanel").style.width = "450px";
                             } else {
-                                document.getElementById("benzePanel").style.width = "100%";
+                                document.getElementById("benzePanel").style.width = screen.width * 0.75 + "px";
                             }
                             canClosePanel = false;
                         }
